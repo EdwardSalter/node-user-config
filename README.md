@@ -29,6 +29,8 @@ const mongoUrl = config.get('mongoUrl', 'MY_APPS_DATABSAE_URL');
 ```
 This will search the `user.config.json` file for the `mongoUrl` property but fallback to an environment variable named `MY_APPS_DATABSAE_URL` if not found.
 
+### Error
+If the third parameter passed to the `get` method is true, if no key has been found in the `user.config.json` file or in the fallback environment variable; an error will be thrown.
 
 ## Usage
 **user.config.json**
