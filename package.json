@@ -1,0 +1,15 @@
+{
+  "name": "node-user-config",
+  "version": "0.1",
+  "repository": { 
+    "type" : "git",
+    "url" : "EdwardSalter/node-user-config"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0"
+  },
+  "dependencies": {
+    "optional": "^0.1.3"
+  }
+}
