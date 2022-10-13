@@ -1,6 +1,10 @@
 # node-user-config
 Read application settings from a configuration file with an environment variable fallback.
 
+## Deprecated
+NOTE: This repository has now been deprecated in favour of using more widely used and better written configuration libraries such as `dotenv` or `cosmiconfig`.
+
+
 ## Why?
 I needed a simple way to specify some application configuration without it being checked in to source control.
 Without file system access to the deployment server, environment variables are the best option for application variables whereas a simple `user.config.json` file is easier to deal with at development time.
